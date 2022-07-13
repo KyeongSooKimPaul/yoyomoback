@@ -1,0 +1,29 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "tag": "CreateField",
+      "model": "Ordermanageitems",
+      "field": "wholeamount",
+      "type": "String",
+      "arity": "Optional"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Ordermanageitems",
+      "field": "keepingamount",
+      "type": "String",
+      "arity": "Optional"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "Ordermanageitems",
+      "field": "currency"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "Ordermanageitems",
+      "field": "paid_price"
+    }
+  ]
+}
